@@ -1,3 +1,2 @@
-
-cd /home/mark/Desktop/gitStuff2/RandomStuff69
+cd /RPi-Lights/python
 sudo python LEDOff.py
