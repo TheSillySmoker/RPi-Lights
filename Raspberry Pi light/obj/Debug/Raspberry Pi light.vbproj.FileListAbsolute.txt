@@ -1,0 +1,12 @@
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\bin\Debug\Raspberry Pi light.exe.config
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\bin\Debug\Raspberry Pi light.exe
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\bin\Debug\Raspberry Pi light.pdb
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\bin\Debug\Raspberry Pi light.xml
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry Pi light.vbprojAssemblyReference.cache
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry_Pi_light.Form1.resources
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry_Pi_light.Resources.resources
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry Pi light.vbproj.GenerateResource.cache
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry Pi light.vbproj.CoreCompileInputs.cache
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry Pi light.exe
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry Pi light.xml
+C:\Users\Mark Schroeder\source\repos\Raspberry Pi light\obj\Debug\Raspberry Pi light.pdb

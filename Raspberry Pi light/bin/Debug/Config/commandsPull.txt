@@ -1,0 +1,2 @@
+cd /home/mark/Desktop/gitStuff2/RandomStuff69
+sudo git pull
