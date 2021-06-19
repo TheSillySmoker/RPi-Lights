@@ -5,5 +5,5 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(ledPin, GPIO.OUT)
 GPIO.output(ledPin, GPIO.HIGH)
 
-username = input("Enter username:")
+username = raw_input("Enter username:")
 print("Username is: " + username)
