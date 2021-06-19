@@ -19,4 +19,8 @@
     Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
         System.Diagnostics.Process.Start("pull.bat")
     End Sub
+
+    Private Sub btnTrial_Click(sender As Object, e As EventArgs) Handles btnTrial.Click
+        System.Diagnostics.Process.Start("trial.bat")
+    End Sub
 End Class

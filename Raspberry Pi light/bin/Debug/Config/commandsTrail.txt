@@ -1,0 +1,3 @@
+
+cd /RPi-Lights/python
+sudo python trial.py

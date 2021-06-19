@@ -28,6 +28,7 @@ Partial Class Form1
         Me.btnOff = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.btnTrial = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnExit
@@ -96,12 +97,25 @@ Partial Class Form1
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = False
         '
+        'btnTrial
+        '
+        Me.btnTrial.BackColor = System.Drawing.SystemColors.Info
+        Me.btnTrial.Cursor = System.Windows.Forms.Cursors.Default
+        Me.btnTrial.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTrial.Location = New System.Drawing.Point(45, 245)
+        Me.btnTrial.Name = "btnTrial"
+        Me.btnTrial.Size = New System.Drawing.Size(132, 36)
+        Me.btnTrial.TabIndex = 6
+        Me.btnTrial.Text = "Trial"
+        Me.btnTrial.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(230, 242)
+        Me.ClientSize = New System.Drawing.Size(230, 312)
+        Me.Controls.Add(Me.btnTrial)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnOff)
@@ -121,4 +135,5 @@ Partial Class Form1
     Friend WithEvents btnOff As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents btnUpdate As Button
+    Friend WithEvents btnTrial As Button
 End Class
