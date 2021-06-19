@@ -9,8 +9,10 @@ while x == 1:
     var = raw_input("On or Off? Please enter: ")
     if var == "On":
         GPIO.output(ledPin, GPIO.HIGH)
+        print("The LED is now " + var + "!")
     elif var == "Off":
         GPIO.output(ledPin, GPIO.LOW)
+        print("The LED is now " + var + "!")
     else:
         print("Please enter either 'On' or 'Off'.")
 
