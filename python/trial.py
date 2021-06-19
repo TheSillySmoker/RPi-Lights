@@ -12,7 +12,7 @@ time.sleep(1)
 print(var)
 time.sleep(1)
 
-var = input("On or Off? Please enter: ")
+var1 = input("On or Off? Please enter: ")
 """
 if var == "On":
 
