@@ -6,13 +6,13 @@ GPIO.setup(ledPin, GPIO.OUT)
 GPIO.output(ledPin, GPIO.HIGH)
 
 
-var = input("On or Off? Please enter: ")
+var = str(input("On or Off? Please enter: "))
 print(var)
 time.sleep(1)
 print(var)
 time.sleep(1)
 
-var1 = input("On or Off? Please enter: ")
+var1 = str(input("On or Off? Please enter: "))
 """
 if var == "On":
 
