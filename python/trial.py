@@ -3,7 +3,19 @@ import time
 ledPin = 21
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(ledPin, GPIO.OUT)
-GPIO.output(ledPin, GPIO.HIGH)
 
-username = raw_input("Enter username:")
-print("Username is: " + username)
+
+ 
+var = raw_input("On or Off? Please enter: ")
+print(var)
+if var == "On":
+
+    GPIO.output(ledPin, GPIO.HIGH)
+    time.sleep(1)
+
+elif var == "Off":
+    GPIO.output(ledPin, GPIO.LOW)
+else:
+    print("Please enter either 'On' or 'Off'.")
+
+        
