@@ -5,9 +5,14 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(ledPin, GPIO.OUT)
 GPIO.output(ledPin, GPIO.HIGH)
 
-"""
+
 var = input("On or Off? Please enter: ")
 print(var)
+time.sleep(1)
+print(var)
+time.sleep(1)
+
+"""
 if var == "On":
 
     GPIO.output(ledPin, GPIO.HIGH)
