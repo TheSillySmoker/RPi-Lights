@@ -3,9 +3,9 @@ import time
 ledPin = 21
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(ledPin, GPIO.OUT)
+GPIO.output(ledPin, GPIO.HIGH)
 
-
-    
+"""
 var = input("On or Off? Please enter: ")
 print(var)
 if var == "On":
@@ -19,4 +19,4 @@ else:
     print("Please enter either 'On' or 'Off'.")
 
         
-
+"""
