@@ -109,7 +109,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnOn)
         Me.Controls.Add(Me.btnExit)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "LED Control"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
