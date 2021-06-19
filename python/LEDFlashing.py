@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(ledPin, GPIO.OUT)
 
 x = 0
-while x < 50:
+while x < 10:
     GPIO.output(ledPin, GPIO.HIGH)
     time.sleep(0.1)
     GPIO.output(ledPin, GPIO.LOW)
